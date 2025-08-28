@@ -147,6 +147,96 @@ php artisan db:seed
 
 # Jalankan server
 php artisan serve
+```
 
+Frontend (React)
+# Masuk ke direktori frontend
+cd frontend
+
+# Install dependencies
+npm install
+
+# Setup environment variables di .env
+REACT_APP_API_BASE_URL=http://localhost:8000/api
+
+# Jalankan server
+npm start
+
+src/
+├── components/
+│   ├── auth/
+│   │   ├── Login.js
+│   │   └── Register.js
+│   ├── learning/
+│   │   ├── CharacterCard.js
+│   │   ├── CharacterGrid.js
+│   │   ├── VocabularyList.js
+│   │   └── GrammarList.js
+│   ├── quiz/
+│   │   ├── QuizList.js
+│   │   ├── QuizCard.js
+│   │   └── Question.js
+│   └── common/
+│       ├── Header.js
+│       ├── Footer.js
+│       ├── LoadingSpinner.js
+│       └── ProgressChart.js
+├── pages/
+│   ├── Dashboard.js
+│   ├── LearningPage.js
+│   ├── HiraganaPage.js
+│   ├── KatakanaPage.js
+│   ├── KanjiPage.js
+│   ├── VocabularyPage.js
+│   ├── GrammarPage.js
+│   ├── QuizPage.js
+│   ├── ProgressPage.js
+│   ├── AuthPage.js
+│   ├── QuizAttemptPage.js
+│   ├── QuizResultsPage.js
+│   └── admin/
+│       └── QuizAdmin.js
+├── services/
+│   └── api.js
+├── store/
+│   ├── slices/
+│   │   ├── authSlice.js
+│   │   ├── progressSlice.js
+│   │   └── quizSlice.js
+│   └── store.js
+├── hooks/
+│   └── useAuth.js
+└── utils/
+    └── constants.js
+
+    
+📝 Data Sample
+
+Aplikasi dilengkapi dengan data sample untuk:
+
+46 karakter Hiragana
+
+46 karakter Katakana
+
+80+ kanji JLPT N5
+
+100+ kosakata dasar
+
+25+ aturan tata bahasa
+
+5+ kuis dengan berbagai jenis
+
+
+🎯 Cara Penggunaan
+
+Registrasi/Login - Buat akun baru atau login ke akun yang sudah ada
+
+Jelajahi Materi - Pelajari karakter, kosakata, dan tata bahasa
+
+Kerjakan Kuis - Uji pengetahuan dengan berbagai jenis kuis
+
+Lihat Progress - Pantau perkembangan belajar di halaman progress
+
+Review Harian - Gunakan fitur review untuk mengingat materi
 
 
