@@ -161,54 +161,6 @@ REACT_APP_API_BASE_URL=http://localhost:8000/api
 
 # Jalankan server
 npm start
-
-src/
-├── components/
-│   ├── auth/
-│   │   ├── Login.js
-│   │   └── Register.js
-│   ├── learning/
-│   │   ├── CharacterCard.js
-│   │   ├── CharacterGrid.js
-│   │   ├── VocabularyList.js
-│   │   └── GrammarList.js
-│   ├── quiz/
-│   │   ├── QuizList.js
-│   │   ├── QuizCard.js
-│   │   └── Question.js
-│   └── common/
-│       ├── Header.js
-│       ├── Footer.js
-│       ├── LoadingSpinner.js
-│       └── ProgressChart.js
-├── pages/
-│   ├── Dashboard.js
-│   ├── LearningPage.js
-│   ├── HiraganaPage.js
-│   ├── KatakanaPage.js
-│   ├── KanjiPage.js
-│   ├── VocabularyPage.js
-│   ├── GrammarPage.js
-│   ├── QuizPage.js
-│   ├── ProgressPage.js
-│   ├── AuthPage.js
-│   ├── QuizAttemptPage.js
-│   ├── QuizResultsPage.js
-│   └── admin/
-│       └── QuizAdmin.js
-├── services/
-│   └── api.js
-├── store/
-│   ├── slices/
-│   │   ├── authSlice.js
-│   │   ├── progressSlice.js
-│   │   └── quizSlice.js
-│   └── store.js
-├── hooks/
-│   └── useAuth.js
-└── utils/
-    └── constants.js
-
     
 📝 Data Sample
 
